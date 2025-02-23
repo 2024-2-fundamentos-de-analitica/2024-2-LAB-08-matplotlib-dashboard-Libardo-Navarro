@@ -40,7 +40,7 @@ def pregunta_01():
     if os.path.exists('docs'):
         os.system('rm -rf docs')
     
-    # os.makedirs('docs')
+    os.makedirs('docs')
 
     df = pd.read_csv('files/input/shipping-data.csv')
     df2 = df.copy()
